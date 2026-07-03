@@ -1,7 +1,8 @@
 // ─────────────────────────────────────────────────────────────
 //  Schema eliminatorii FIFA World Cup 2026 (48 echipe)
-//  16-imi: echipe hardcodate cu rezultatele reale din grupe
-//  De la optimi incolo: calculat automat din rezultatele arbitrului
+//  16-imi (Round of 32): echipe hardcodate cu rezultatele reale
+//  De la optimi (Round of 16) incolo: calculat automat din
+//  rezultatele introduse de arbitru.
 //  Ore: Romania (EEST = UTC+3)
 // ─────────────────────────────────────────────────────────────
 
@@ -27,23 +28,24 @@ export const R32 = [
   { id:"r32_88", num:88, home:"Australia",     away:"Egipt",         kickoff:"2026-07-03T21:00", label:"M88" },
 ];
 
-// ── Optimi — calculat automat din rezultatele 16-imilor ──────
+// ── Optimi (Round of 16) — calculat automat din 16-imi ────────
+// Sursa: FIFA.com official bracket + ESPN/Sky Sports (verificat)
 export const R16 = [
-  { id:"r16_89", num:89, s1:"W74", s2:"W77", kickoff:"2026-07-05T00:00", label:"M89" },
-  { id:"r16_90", num:90, s1:"W73", s2:"W75", kickoff:"2026-07-04T20:00", label:"M90" },
-  { id:"r16_91", num:91, s1:"W76", s2:"W78", kickoff:"2026-07-05T01:00", label:"M91" },
-  { id:"r16_92", num:92, s1:"W79", s2:"W80", kickoff:"2026-07-06T03:00", label:"M92" },
-  { id:"r16_93", num:93, s1:"W81", s2:"W82", kickoff:"2026-07-07T03:00", label:"M93" },
-  { id:"r16_94", num:94, s1:"W83", s2:"W84", kickoff:"2026-07-06T22:00", label:"M94" },
-  { id:"r16_95", num:95, s1:"W85", s2:"W87", kickoff:"2026-07-07T23:00", label:"M95" },
-  { id:"r16_96", num:96, s1:"W86", s2:"W88", kickoff:"2026-07-07T19:00", label:"M96" },
+  { id:"r16_89", num:89, s1:"W74", s2:"W77", kickoff:"2026-07-05T00:00", label:"M89" }, // Paraguay/Franta
+  { id:"r16_90", num:90, s1:"W73", s2:"W75", kickoff:"2026-07-04T20:00", label:"M90" }, // Canada/Maroc
+  { id:"r16_91", num:91, s1:"W76", s2:"W78", kickoff:"2026-07-05T23:00", label:"M91" }, // Brazilia/Norvegia
+  { id:"r16_92", num:92, s1:"W79", s2:"W80", kickoff:"2026-07-06T03:00", label:"M92" }, // Mexic/Anglia
+  { id:"r16_93", num:93, s1:"W83", s2:"W84", kickoff:"2026-07-06T22:00", label:"M93" }, // Portugalia/Spania
+  { id:"r16_94", num:94, s1:"W81", s2:"W82", kickoff:"2026-07-07T00:00", label:"M94" }, // SUA/Belgia
+  { id:"r16_95", num:95, s1:"W86", s2:"W88", kickoff:"2026-07-07T19:00", label:"M95" }, // Argentina-CV/Australia-Egipt
+  { id:"r16_96", num:96, s1:"W85", s2:"W87", kickoff:"2026-07-07T23:00", label:"M96" }, // Elvetia/Columbia-Ghana
 ];
 
 // ── Sferturi ──────────────────────────────────────────────────
 export const QF = [
   { id:"qf_97",  num:97,  s1:"W89", s2:"W90", kickoff:"2026-07-09T23:00", label:"M97"  },
-  { id:"qf_98",  num:98,  s1:"W91", s2:"W92", kickoff:"2026-07-10T22:00", label:"M98"  },
-  { id:"qf_99",  num:99,  s1:"W93", s2:"W94", kickoff:"2026-07-12T00:00", label:"M99"  },
+  { id:"qf_98",  num:98,  s1:"W93", s2:"W94", kickoff:"2026-07-10T22:00", label:"M98"  },
+  { id:"qf_99",  num:99,  s1:"W91", s2:"W92", kickoff:"2026-07-12T00:00", label:"M99"  },
   { id:"qf_100", num:100, s1:"W95", s2:"W96", kickoff:"2026-07-12T04:00", label:"M100" },
 ];
 
