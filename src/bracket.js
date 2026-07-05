@@ -36,7 +36,7 @@ export const R16 = [
   { id:"r16_91", num:91, s1:"W76", s2:"W78", kickoff:"2026-07-05T23:00", label:"M91" }, // Brazilia/Norvegia
   { id:"r16_92", num:92, s1:"W79", s2:"W80", kickoff:"2026-07-06T03:00", label:"M92" }, // Mexic/Anglia
   { id:"r16_93", num:93, s1:"W83", s2:"W84", kickoff:"2026-07-06T22:00", label:"M93" }, // Portugalia/Spania
-  { id:"r16_94", num:94, s1:"W81", s2:"W82", kickoff:"2026-07-07T00:00", label:"M94" }, // SUA/Belgia
+  { id:"r16_94", num:94, s1:"W81", s2:"W82", kickoff:"2026-07-07T03:00", label:"M94" }, // SUA/Belgia
   { id:"r16_95", num:95, s1:"W86", s2:"W88", kickoff:"2026-07-07T19:00", label:"M95" }, // Argentina-CV/Australia-Egipt
   { id:"r16_96", num:96, s1:"W85", s2:"W87", kickoff:"2026-07-07T23:00", label:"M96" }, // Elvetia/Columbia-Ghana
 ];
